@@ -64,12 +64,12 @@ def jarvis(data):
     	  wb.open_new_tab("https://book.olacabs.com/?")
     elif " what is weather of " in data:
     	  data=data.split("")
-	      location=data[4]
-	      wb.open_new_tab("http://api.openweathermap.org/data/2.5/weather?q="+location+"")
+	  location=data[4]
+	  wb.open_new_tab("http://api.openweathermap.org/data/2.5/weather?q="+location+"")
     elif " search " in data:
     	  data=data.split(“”)
-	      location=data[1]
-	      wb.open_new_tab("https://www.google.com/search?q="+location+"")
+	  location=data[1]
+	  wb.open_new_tab("https://www.google.com/search?q="+location+"")
     else:
         speak("...... i did not get what you said !!")
         
