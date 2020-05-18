@@ -71,7 +71,7 @@ def jarvis(data):
 	  location=data[1]
 	  wb.open_new_tab("https://www.google.com/search?q="+location+"")
     else:
-        speak("...... i did not get what you said !!")
+        speak("...... i did not get what you said !!") 
         
      
     
